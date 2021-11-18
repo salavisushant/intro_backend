@@ -8,7 +8,7 @@ app.get('/users', (req, res) => {
     return res.send(user)
 })
 
-app.get('/singleuser', (req, res) => {
+app.get('/', (req, res) => {
     return res.send("Welcome To Homepage")
 })
 
